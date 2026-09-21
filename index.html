@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-box">
+        <h2>My Calculator</h2>
+        <!-- Input display jahan numbers dikhenge -->
+        <input type="text" id="result-display" readonly>
+        
+        <!-- Buttons -->
+        <div class="buttons-grid">
+            <button onclick="clearScreen()">C</button>
+            <button onclick="pressNum('/')">/</button>
+            <button onclick="pressNum('*')">*</button>
+            <button onclick="pressNum('-')">-</button>
+            
+            <button onclick="pressNum('7')">7</button>
+            <button onclick="pressNum('8')">8</button>
+            <button onclick="pressNum('9')">9</button>
+            <button onclick="pressNum('+')">+</button>
+            
+            <button onclick="pressNum('4')">4</button>
+            <button onclick="pressNum('5')">5</button>
+            <button onclick="pressNum('6')">6</button>
+            <button onclick="calculateResult()">=</button>
+            
+            <button onclick="pressNum('1')">1</button>
+            <button onclick="pressNum('2')">2</button>
+            <button onclick="pressNum('3')">3</button>
+            <button onclick="pressNum('0')">0</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
