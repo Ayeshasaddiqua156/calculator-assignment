@@ -14,5 +14,6 @@ jobs:
     - name: Verify Calculator Files
       run: |
         echo "Testing if index.html exists..."
-       test -f nonexistent-file.html
+       test -f index.html
+
 
